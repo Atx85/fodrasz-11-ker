@@ -1,0 +1,88 @@
+body {
+    background-color: #FFEED6;
+    color: #2B061E;
+    font-family: 'Playpen Sans', cursive;
+    padding: 0;
+    margin: 0;
+}
+.gmap {
+    max-width: 100%;
+}
+.padding-16-9 {
+    padding-top: 56.25%;
+    @media (min-width: 768px) {
+        padding-top: 0;
+    }
+}
+footer {
+    background-color: #2B061E;
+    color: #FFEED6;
+    padding: 10px 0;
+    h1 {
+        display: flex;
+        margin: 0;
+        text-align: center;
+        justify-content: space-around;
+        font-size: 15px;
+        font-weight: 100;
+    }
+}
+.profile-image-container {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    @media (min-width: 768px) {
+        margin-bottom: 0;
+    }
+}
+.profile-image-spacer {
+    padding-top: 100%;
+    position: relative;
+}
+.profile-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    // width: 250px;
+    // min-width: 250px;
+    // height: 250px;
+    // min-height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 32px 2px #48abe0;
+}
+h2 {
+    font-size: 56px;
+    text-align: center;
+    margin: 0;
+}
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+.promo-prices {
+    background-color: #57C4E5;
+    padding: 20px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+}
+.salon-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .image {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: url('/assets/images/375223053_122094261008041161_2425196447594258714_n.jpg') no-repeat center/cover;
+    }
+}
