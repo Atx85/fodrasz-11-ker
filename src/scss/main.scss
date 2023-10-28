@@ -27,6 +27,20 @@ footer {
         font-weight: 100;
     }
 }
+.facebook {
+    a {
+        color: #2b061e;
+        padding-right: 8px;
+    }
+    svg {
+        position: relative;
+        top: -4px;
+    }
+    span {
+        margin-left: -12px;
+        margin-right: -8px;
+    }
+}
 .profile-image-container {
     max-width: 250px;
     max-height: 250px;
